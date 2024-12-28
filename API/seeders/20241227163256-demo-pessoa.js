@@ -51,6 +51,14 @@ module.exports = {
 				role: 'docente',
 				createdAt: new Date(),
 				updatedAt: new Date()
+			},
+			{
+				nome: 'Rogério Teste',
+				ativo: false,
+				email: 'Rogério@rogérin.com',
+				role: 'estudante',
+				createdAt: new Date(),
+				updatedAt: new Date()
 			}], {}); 
   },
 
