@@ -47,7 +47,7 @@ class NiveisController {
         const {id} = req.params
         try{
             await database.niveis.destroy({where: {id: Number(id)}})
-            return res.status(200).send('Nível deletado com sucesso!')
+            return res.status(200).send('Nível Deletado com Sucesso!')
         } catch (error) {
             return res.status(500).json(error.message)
         }

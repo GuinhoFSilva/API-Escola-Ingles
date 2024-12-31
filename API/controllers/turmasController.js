@@ -46,7 +46,7 @@ class TurmasController {
         const {id} = req.params
         try{
             await database.turmas.destroy({where: {id: Number(id)}})
-            return res.status(200).send('Turma deletada com sucesso')
+            return res.status(200).send('Turma Deletada com Sucesso!')
         } catch (error) {
             return res.status(500).json(error.message)
         }
